@@ -1,0 +1,22 @@
+* {
+
+    margin: 0;
+
+}
+
+ul {
+
+
+    display: flex;
+    gap: 5em;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2em;
+
+
+}
+
+body {
+
+    background-color: rgb(214, 214, 214);
+}

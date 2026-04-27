@@ -1,0 +1,80 @@
+* {
+
+    margin: 0;
+
+
+}
+
+body {
+
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    
+
+
+}
+
+main {
+
+    background-color: antiquewhite;
+}
+
+header {
+
+    position: fixed;
+    width: 80%;
+
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: green;
+
+}
+
+a {
+
+    text-decoration: none;
+
+
+}
+
+.indice_recetas {
+
+
+    padding-top: 20em;
+    padding-bottom: 40em;
+    padding-left: 20em;
+    padding-right: 20em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+
+}
+
+.textos_arriba {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.receta {
+
+
+    padding: 10em;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-bottom: 20em;
+
+}

@@ -1,0 +1,102 @@
+* {
+
+    margin: 0;
+
+
+}
+
+
+
+.container {
+
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: grey;
+
+
+}
+
+.elementos_nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+    padding: 1em;
+    text-decoration: none;
+    
+
+
+}
+
+.formulario {
+
+    margin-top: 15em;
+    margin-left: 20em;
+    margin-right: 20em;
+    margin-bottom: 5em;
+    background-color: white;
+    height: 15em;
+    padding-top: 2em;
+
+
+}
+
+.datos {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2em;
+    gap: 1em;
+
+
+}
+
+.botones {
+
+    display: flex;
+    gap: 2em;
+    padding-left: 4em;
+   
+
+
+}
+
+button {
+
+    width: 6em;
+
+
+}
+
+a {
+
+    text-decoration: none;
+}
+
+header {
+
+    background-color: red;
+    width: 100%;
+    
+}
+
+
+
+
+footer {
+
+    background-color: rgb(103, 187, 47);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    padding: 1em 0 1em 0;
+
+}
+
+

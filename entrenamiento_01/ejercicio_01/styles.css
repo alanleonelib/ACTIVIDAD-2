@@ -1,0 +1,83 @@
+* {
+
+    margin: 0;
+
+
+}
+
+.container {
+
+
+    background-color: rgb(211, 211, 211);
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto 0 auto;
+    padding-left: 3em;
+    display: flex;
+
+}
+
+.datos ul {
+
+    list-style: none;
+
+
+}
+
+.datos {
+
+
+    padding-top: 2em;
+
+
+}
+
+.experienca_laboral_container {
+
+    padding-top: 3em;
+
+}
+
+.experienca_laboral_container ul {
+
+    padding-left: 6em;
+
+}
+
+.experienca_laboral {
+
+    padding-left: 1.7em;
+
+
+}
+
+.estudios_container {
+
+    padding: 3em 0 0 2.7em;
+
+}
+
+.foto {
+
+    margin-top: 2em;
+
+
+}
+
+img {
+
+    width: 10em;
+    height: auto;
+    padding-left: 50em;
+
+
+}
+
+.indice {
+
+    padding-left: 10%;
+    padding-top: 1%;
+
+}
+
+

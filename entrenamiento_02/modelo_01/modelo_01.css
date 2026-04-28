@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+main {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0.75em;
+    height: 100vh;
+    background-color: #193734e8;
+}
+
+#div-superior {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75em;
+}
+
+#div-inferior {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75em;
+}
+
+.contenedor-01,
+.contenedor-02,
+.contenedor-03,
+.contenedor-04,
+.contenedor-05,
+.contenedor-06 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border: 1px solid #ccc;
+}
+
+.contenedor-01 {
+    background-color: #eedbdb;
+}
+
+.contenedor-02 {
+    background-color: #b4dfb4;
+}
+
+.contenedor-03 {
+    background-color: #d3d3e4;
+}
+
+.contenedor-04 {
+    background-color: #d0d0c7;
+}
+
+.contenedor-05 {
+    background-color: #e8c3e8;
+}
+
+.contenedor-06 {
+    background-color: #b2dddd;
+}
+
+@media (max-width: 768px) {
+
+     * {
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        box-sizing: content-box;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+    } 
+
+    main {
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0.75em;
+        box-sizing: border-box;
+        background-color: #193734e8;
+        }
+
+    #div-inferior {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columnas iguales */
+        grid-template-rows: repeat(2, 1fr);
+        /* 2 filas iguales */
+        gap: 0.75em;
+        width: 100%;
+        height: 100%;
+        /* ocupa toda la altura del contenedor padre */
+    }
+
+    #div-inferior>div {
+        /* solo para visualizar */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    #div-superior {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* 2 columnas iguales */
+        grid-template-rows: repeat(2, 1fr);
+        /* 2 filas iguales */
+        gap: 0.75em;
+        width: 100%;
+        height: 100%;
+        /* ocupa toda la altura del contenedor padre */
+    }
+
+
+
+
+
+}

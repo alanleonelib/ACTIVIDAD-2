@@ -71,7 +71,7 @@ body{
     background-color: #F4CCCC;
 }
 
-@media (max-width: 425px){
+@media (max-width: 768px){
 
     .a{
         grid-column: 1/5;

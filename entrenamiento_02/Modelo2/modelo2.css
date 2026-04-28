@@ -64,7 +64,7 @@ body{
     background-color: #c9daf8;
 }
 
-@media (max-width: 425px){
+@media (max-width: 768px){
     .container{
         display: grid;
         grid-template-areas:    "a a"

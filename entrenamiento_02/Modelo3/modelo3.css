@@ -71,7 +71,7 @@ body{
     padding: 1.52rem;
 }
 
-@media (max-width: 425px){
+@media (max-width: 768px){
     .container{
         display: grid;
         grid-template-areas:    "a a"
